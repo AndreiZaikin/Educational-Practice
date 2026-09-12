@@ -1,0 +1,6 @@
+delivery_item_id,delivery_id,product_id,quantity,total_amount
+1,1,1,50,25000
+2,2,2,200,18000.5
+3,3,3,30,10500
+4,4,1,10,5000
+5,5,2,150,13500
