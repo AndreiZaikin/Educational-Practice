@@ -1,0 +1,18 @@
+# Локальные конфиги с учётными данными
+config.py
+config.local.py
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+
+# Кэш pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Среда разработки
+.venv/
+venv/
+.idea/
+.vscode/
