@@ -33,3 +33,11 @@
 и возвращает пользователя к списку.
 
 Иконка приложения и логотип компании подключаются через `app/ui/paths.py`.
+
+## Расположение кода
+
+Код практики вынесен в пакет `app/` — см. раздел
+[«Организация кода»](../README.md#организация-кода) в общем README практики.
+
+- [`app/ui/main_window.py`](../app/ui/main_window.py) — главное окно `MainWindow`;
+- [`app/ui/partner_edit_window.py`](../app/ui/partner_edit_window.py) — форма `PartnerEditWindow`.
