@@ -1,0 +1,91 @@
+QMainWindow {
+    background-color: #ffffff;
+}
+
+QWidget#header {
+    background-color: #ffffff;
+}
+
+QLabel#headerTitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2b2b2b;
+}
+
+QScrollArea {
+    border: none;
+    background-color: #ffffff;
+}
+
+QFrame#cardsPanel {
+    background-color: #ffffff;
+    border: 1px solid #a0a0a0;
+}
+
+QWidget#cardsContainer {
+    background-color: #ffffff;
+}
+
+QFrame#partnerCard {
+    background-color: #ffffff;
+    border: 1px solid #a0a0a0;
+    border-radius: 2px;
+}
+
+QFrame#partnerCard:hover {
+    background-color: #f7f7f7;
+    border: 1px solid #808080;
+}
+
+QLabel#partnerTitle {
+    font-size: 16px;
+    color: #2b2b2b;
+}
+
+QLabel#partnerDetail {
+    font-size: 12px;
+    color: #5a5a5a;
+}
+
+QLabel#partnerDiscount {
+    font-size: 16px;
+    color: #2b2b2b;
+}
+
+QPushButton {
+    background-color: #f0f0f0;
+    border: 1px solid #a0a0a0;
+    border-radius: 2px;
+    padding: 6px 16px;
+    font-size: 13px;
+}
+
+QPushButton:hover {
+    background-color: #e8e8e8;
+}
+
+QPushButton:pressed {
+    background-color: #dcdcdc;
+}
+
+QDialog {
+    background-color: #ffffff;
+}
+
+QLineEdit, QComboBox {
+    border: 1px solid #a0a0a0;
+    border-radius: 2px;
+    padding: 4px 8px;
+    font-size: 13px;
+    background-color: #ffffff;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border: 1px solid #606060;
+}
+
+QLabel#formNote {
+    color: #888888;
+    font-size: 11px;
+    padding-top: 4px;
+}

@@ -12,3 +12,4 @@
 
 - [`educational-practice_2026-09-07/`](./educational-practice_2026-09-07/) — учебная практика от 07.09.2026.
 - [`educational-practice_2026-09-14/`](./educational-practice_2026-09-14/) — учебная практика от 14.09.2026.
+- [`educational-practice_2026-09-21/`](./educational-practice_2026-09-21/) — учебная практика от 21.09.2026.
