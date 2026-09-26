@@ -65,3 +65,11 @@
 При сохранении перехватываются исключения `psycopg2.IntegrityError`
 (нарушение ограничений) и `psycopg2.Error` (прочие ошибки СУБД). Текст
 исключения выводится пользователю в `QMessageBox.Critical`.
+
+## Расположение кода
+
+Код практики вынесен в пакет `app/` — см. раздел
+[«Организация кода»](../README.md#организация-кода) в общем README практики.
+
+- [`app/core/validators.py`](../app/core/validators.py) — валидация полей формы;
+- [`app/ui/partner_edit_window.py`](../app/ui/partner_edit_window.py) — валидация перед сохранением, диалоги.

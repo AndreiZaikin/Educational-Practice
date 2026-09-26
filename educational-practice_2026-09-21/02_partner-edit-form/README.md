@@ -47,3 +47,11 @@
 `alter_rating_to_int.sql`. Скрипт одноразовый, применяется к БД
 однократно. Значения `NUMERIC(2,1)` округляются до ближайшего целого,
 добавляется ограничение `CHECK (rating IS NULL OR rating >= 0)`.
+
+## Расположение кода
+
+Код практики вынесен в пакет `app/` — см. раздел
+[«Организация кода»](../README.md#организация-кода) в общем README практики.
+
+- [`app/ui/partner_edit_window.py`](../app/ui/partner_edit_window.py) — форма `PartnerEditWindow`;
+- [`alter_rating_to_int.sql`](./alter_rating_to_int.sql) — миграция рейтинга.

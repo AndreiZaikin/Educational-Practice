@@ -54,3 +54,12 @@
 `partners.partner_type_id` — внешний ключ на `partner_types`. Значение
 выбирается из справочника в `QComboBox`; при пустом выборе передаётся
 `NULL`.
+
+## Расположение кода
+
+Код практики вынесен в пакет `app/` — см. раздел
+[«Организация кода»](../README.md#организация-кода) в общем README практики.
+
+- [`app/db/repository.py`](../app/db/repository.py) — CRUD-функции;
+- [`app/ui/partner_edit_window.py`](../app/ui/partner_edit_window.py) — форма, вызывающая CRUD;
+- [`app/ui/main_window.py`](../app/ui/main_window.py) — обработка сигнала `doubleClicked` и обновление списка.
